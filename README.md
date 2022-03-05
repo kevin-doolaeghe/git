@@ -1,13 +1,13 @@
-# Git Commands Reference
+# Git | Commandes
 
-## Author
+## Auteur
 ### Kevin DOOLAEGHE
 
-## Reference
+## Sources
 * [Git - Reference](https://git-scm.com/docs)
 * [Git Cheat Sheets](https://training.github.com/)
 
-## Commands
+## Commandes
 
 → Afficher l'aide :
 * `git help [-a]`
@@ -55,13 +55,17 @@
 * `git commit -a -m "message"`
 
 → Ajouter une branche :
-* `git branch -b <branche>`
+* `git branch <branche>`
+* `git checkout -b <branche>`
 
 → Supprimer une branche :
 * `git branch -d <branche>`
 
 → Changer de branche :
 * `git checkout <branche>`
+
+→ Pousser la branche :
+* `git push --set-upstream origin <branche>`
 
 → Fusionner deux branches :
 * `git checkout <dst>`
