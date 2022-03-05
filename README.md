@@ -9,6 +9,8 @@
 
 ## Commandes
 
+### Commandes de base
+
 → Afficher l'aide :
 * `git help [-a]`
 * `git`
@@ -37,6 +39,8 @@
 → Initialiser un dépôt :
 * `git init`
 
+### Gestion des fichiers
+
 → Ajouter des fichiers au suivi de version :
 * `git add <fichier>`
 * `git add *`
@@ -54,6 +58,8 @@
 → Faire un commit :
 * `git commit -a -m "message"`
 
+### Gestion des branches
+
 → Ajouter une branche :
 * `git branch <branche>`
 * `git checkout -b <branche>`
@@ -70,6 +76,8 @@
 → Fusionner deux branches :
 * `git checkout <dst>`
 * `git merge <src> [-no-ff]`
+
+### Fonctionnement en distant
 
 → Cloner un dépôt distant :
 * `git clone <url>`
