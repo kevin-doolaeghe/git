@@ -6,6 +6,8 @@
 ## Sources
 * [Git - Reference](https://git-scm.com/docs)
 * [Git Cheat Sheets](https://training.github.com/)
+* [Clone HTTPs repositories - `gh auth login`](https://cli.github.com/manual/gh_auth_login)
+* [Github on CLI (`gh` command)](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
 
 ## Commandes
 
